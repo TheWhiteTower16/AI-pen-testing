@@ -11,6 +11,7 @@ This is an advanced AI-powered assistant designed to streamline penetration test
 - **Operating System**: Kali Linux
 - **Python**: Version 3.x
 - **Install Required Python Libraries**: Found in requirement.txt
+- **Attention**: Download the file in the ATTENTION.md file and add it as AI-pen-testing/Pentest_LLM.guff
 - **Download the Model**: [Model](https://huggingface.co/TianZun/AI-pen-testing)
 - **Configure the Model Path**: Update the `model_path` variable in the script to match the downloaded model’s location.
 
