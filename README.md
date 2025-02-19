@@ -18,7 +18,7 @@ This is an advanced AI-powered assistant designed to streamline penetration test
    ```
    
 2. **Download the Model**
-   - Download the Model File:[https://huggingface.co/ArmurAI/Pentest_AI](https://huggingface.co/TianZun/AI-pen-testing)
+   - [Model](https://huggingface.co/TianZun/AI-pen-testing)
   
 3. **Configure the Model Path**
    - Update the `model_path` variable in the script to match the downloaded model’s location.
