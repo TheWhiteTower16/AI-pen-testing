@@ -19,7 +19,7 @@ This is an advanced AI-powered assistant designed to streamline penetration test
 
 ## Usage
 
-### Running PentestAI
+### Running the AI
 Execute the script and follow the prompts to begin penetration testing.
 ```bash
 python AI-pen-testing.py
