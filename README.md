@@ -10,28 +10,19 @@ This is an advanced AI-powered assistant designed to streamline penetration test
 ### Requirements
 - **Operating System**: Kali Linux
 - **Python**: Version 3.x
-
-1. **Install Required Python Libraries**
-   ```bash
-   pip install transformers colorama torch
-   ```
-   
-2. **Download the Model**
-   - [Model](https://huggingface.co/TianZun/AI-pen-testing)
-  
-3. **Configure the Model Path**
-   - Update the `model_path` variable in the script to match the downloaded model’s location.
+- **Install Required Python Libraries**: Found in requirement.txt
+- **Download the Model**: [Model](https://huggingface.co/TianZun/AI-pen-testing)
+- **Configure the Model Path**: Update the `model_path` variable in the script to match the downloaded model’s location.
 
 ---
 
 ## Usage
 
 ### Running PentestAI
-Execute the script with:
+Execute the script and follow the prompts to begin penetration testing.
 ```bash
 python AI-pen-testing.py
 ```
-Follow the prompts to begin penetration testing.
 
 ### Required Tools
 First it verifies the availability of essential penetration testing tools and installs missing ones:
