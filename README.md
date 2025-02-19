@@ -1,7 +1,7 @@
 # AI Pen Testing Assistant
 
 ## Overview
-This is an advanced AI-powered assistant designed to streamline penetration testing. Built on top of Mistral-7B, it has been jailbroken, trained on extensive dataset of sucessful pen tests, and fine-tuned with command sets of Kali Linux tools. PentestAI provides automated command execution and guidance to facilitate in-depth security assessments.
+This is an advanced AI-powered assistant designed to streamline penetration testing. Built on top of Mistral-7B, it has been jailbroken, trained on extensive dataset of sucessful pen tests, and fine-tuned with command sets of Kali Linux tools. PentestAI provides automated command execution and guidance to facilitate in-depth security assessments. Tools avaliable to the AI include nmap, metasploit, john the ripper, wireshark, hydra, burpsuite, sqlmap, and more!
 
 ---
 
@@ -11,7 +11,6 @@ This is an advanced AI-powered assistant designed to streamline penetration test
 - **Operating System**: Kali Linux
 - **Python**: Version 3.x
 
-### Installation
 1. **Install Required Python Libraries**
    ```bash
    pip install transformers colorama torch
@@ -33,10 +32,6 @@ Execute the script with:
 python AI-pen-testing.py
 ```
 Follow the prompts to begin penetration testing.
-
----
-
-## Breakdown
 
 ### Required Tools
 First it verifies the availability of essential penetration testing tools and installs missing ones:
